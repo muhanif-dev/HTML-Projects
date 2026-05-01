@@ -1,1 +1,25 @@
+# Basics HTML & Page Swapping
 
+This project is part of my frontend learning journey where I practiced basic HTML concepts and implemented simple page navigation.
+
+## Features
+- Basic HTML structure (head, body, headings, paragraphs)
+- Multiple web pages
+- Page navigation using links (page swapping)
+- Simple and clean layout
+
+## Files Included
+- page1.html
+- page2.html
+
+## What I Learned
+- How to structure a basic HTML page
+- How to connect multiple pages using links
+- Understanding of file paths and navigation
+- Building a simple multi-page website
+
+## Purpose
+This project is created for practice and learning purposes to strengthen my HTML fundamentals.
+
+## Next Step
+I will enhance this project using CSS for styling and better user interface.
