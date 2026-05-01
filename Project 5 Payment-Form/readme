@@ -1,1 +1,28 @@
+# HTML Payment Form Project
 
+## 📌 Project Overview
+This project is a simple HTML-based Payment Form that simulates an online checkout process. It is designed to help beginners understand how payment forms are structured in real-world websites.
+
+---
+
+## 📚 What You Will Learn
+In this project, you will learn:
+
+- How to design a payment form in HTML
+- How to collect user billing information
+- How to use different input types for secure data entry
+- How to structure checkout forms like real e-commerce websites
+
+---
+
+## 🧪 Features of This Project
+- Customer personal information fields
+- Billing address section
+- Payment method selection (Credit Card, Debit Card, etc.)
+- Card details input (Card Number, Expiry Date, CVV)
+- Submit/Pay button
+- Clean and structured layout
+
+---
+
+## 📁 Project Structure
