@@ -1,1 +1,30 @@
+# HTML Portfolio Project (Final-1)
 
+## 📌 Project Overview
+This is my final HTML-only portfolio project. It is a simple personal portfolio website built without CSS to focus on core HTML structure. The project demonstrates how different sections of a portfolio website are created using only HTML.
+
+---
+
+## 📚 What You Will Learn
+In this project, you will learn:
+
+- How to create a personal portfolio using HTML only
+- How to structure a multi-section webpage
+- How to use navigation links within a page
+- How to organize content in a professional layout
+- Basics of building a portfolio before adding styling
+
+---
+
+## 🧪 Features of This Project
+- Home section (Introduction)
+- About Me section
+- Education details
+- Skills section
+- Projects showcase section
+- Contact information section
+- Simple navigation menu using anchor links
+
+---
+
+## 📁 Project Structure
