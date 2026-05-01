@@ -1,1 +1,31 @@
+# HTML Form Basics Project
 
+## 📌 Project Overview
+This project demonstrates the basic structure and usage of HTML forms. It is designed for beginners to understand how user input is collected using different form elements in HTML.
+
+---
+
+## 📚 What You Will Learn
+In this project, you will learn:
+- How to create a basic HTML form
+- How to use input fields
+- How to use labels for better user experience
+- How to use different form elements like:
+  - Text input
+  - Email input
+  - Password field
+  - Radio buttons
+  - Checkboxes
+  - Submit button
+
+---
+
+## 🧪 Features of This Project
+- Simple and clean HTML form structure
+- User input fields for data entry
+- Proper use of labels and placeholders
+- Beginner-friendly design
+
+---
+
+## 📁 Project Structure
