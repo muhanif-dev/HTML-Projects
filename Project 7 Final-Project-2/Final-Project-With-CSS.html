@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 10 — Final Project (All-in-one single-page semantic site)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--1. Create `level10_final_project.html`.
+2. Build a semantic single-page site with `<header>` (title + nav), `<main>` (sections: intro, portfolio, resume, media), `<aside>` for quick links, and `<footer>`.
+3. In portfolio add a `<table>` of projects.
+4. In resume add lists (`<ul>`/`<ol>`) for education and skills.
+5. Add a contact `<form>` with inputs: text, email, radio, checkbox, textarea, and submit button.
+6. Add media: an `<audio>` and a `<video>` with `<source>` fallback text.
+7. Add at least one `<figure>` with `<figcaption>`, and include `<details>` and `<progress>`/`<meter>` to show advanced elements.
+8. Save and test anchors, form controls, media playback, and embedded content.-->
+
+<header style="border-radius: 15px; background-color:#36454f; margin: 10px;" >
+     <h1 style="color: #f5deb3; font-family:sans-serif; text-align: center; padding-top: 2%; " >Muhammad Hanif</h1>
+       <nav class="nav">
+            <a href="#home" id="nav-1">Home</a>&nbsp |
+            <a href="#portfolio" id="nav-1">Portfolio</a>&nbsp |
+            <a href="#resume" id="nav-1">Resume</a>&nbsp |
+            <a href="#media" id="nav-1">Media</a>&nbsp |
+            <a href="#contactme" id="nav-1">Contact Me</a>
+       </nav>
+</header>
+
+<main id="home">
+    <section id="intro">
+        <section id="para">
+            <h1 style="font-size: 50px; color: #36454f;">WellCome:</h1>
+        <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eius in quam tempore totam quidem possimus vel nulla error quis, consequuntur doloribus aut tenetur! Unde, quas at. Repellat, impedit minus? Odit nisi quis at eum minima aliquid aut ullam eius qui illo. Molestias voluptates veritatis in voluptas eius quam porro!</p>
+       <!-- <input type="button" name="button" id="intro-btn" title="Download CV" value="Download CV" >-->
+        <button id="intro-btn"><a href="#portfollio"></a>Download CV</button>
+        </section>
+        <section id="pro-section">
+        <figure>
+            <img src="Final Project__Portfolio/111.jpg" alt="Into Picture" width="80%" height="80%" id="pro-img">
+            <!--<figcaption>Muhammad Hanif</figcaption>-->
+        </figure>
+        </section>
+    </section>
+
+    <section id="portfolio">
+        <h1 style="font-size: 50px; color: #36454f;">Portfolio:</h1>
+       <table border="1" cellpadding="6px" style="background-color: #f5deb3; font-size: 20px; font-family:sans-serif;" id="table">
+        <caption>Projects Sample:</caption>
+                <thead style="background-color: white;">
+                     <tr>
+                        <th>Projects</th>
+                        <th>Description</th>
+                        <th>Links</th>
+                     </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Sign Up Form</td>
+                        <td>Pure HTML form with fieldsets and validation types</td>
+                        <td><a href="Level 6 — Form(basics).html">Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Resume Page</td>
+                        <td>Structured CV using headings and lists</td>
+                        <td><a href="level8_semantic.html">Resume</a></td>
+                    </tr>
+                </tbody>
+       </table>
+    </section>
+
+    <section id="resume">
+                <section id="res-h"><h1 style="font-size: 50px; color: #f5deb3;">Resume:</h1>
+    </section>
+      <section id="res-des">
+        <section id="education">
+            <h3 style="color: #f5deb3;">Education:</h3>
+        <ul>
+            <li>Bs Computer Science__ULM Lakki Marwat.</li>
+            <li>Full stock Web Developer.</li>
+        </ul>
+        </section>
+       <section id="skill"> <h3 style="color: #f5deb3;">Skills:</h3>
+        <ol>
+            <li>HTML.</li>
+            <li>CSS.</li>
+            <li>JS.</li>
+            <li>C.</li>
+            <li>C++.</li>
+        </ol> 
+    </section>
+    <section id="responsive">
+        <h3 style="color: #f5deb3;">Responsive:</h3>
+        <ul>
+            <li>Mobile.</li>
+            <li>Tablate.</li>
+            <li>LapTop.</li>
+            <li>Computer.</li>
+        </ul>
+      </section>
+    </section>
+    </section>  
+
+    <section id="media">
+        <h1 style="font-size: 50px; color: #36454f;">Media:</h1>
+
+     <section id="inline">   
+      <section>  
+        <audio controls>
+            <source src="Final Project__Portfolio/CHAL_DIYE_TUM_KAHAN___LYRICAL_OST___VIDEO_SONG_-_4K___KABHI_MAIN_KABHI_TUM___MUSTAFA_x_SHARJEENA(256k).mp3" type="audio.mp3">
+            Your browser does not support the video element.
+        </audio><br><br>
+       <video width="35%" height="35%">
+        <source src="Final Project__Portfolio/BB_ORIG_LAND.mp4">
+        Your browser does not support the video element.
+       </video><br><br>
+       </section>
+
+      <section> <iframe width="35%" height="35%" src="https://www.youtube.com" frameborder="0" title="YouTube Video">YouTube Video</iframe></section>
+      </section>
+
+       <details>
+           <summary>More About This Project:</summary>
+           <p>This final project demonstrates how multiple HTML features combine into a single page website.</p>
+       </details>
+       <br><br>
+       <caption>Web Development:</caption>
+       <progress value="80" max="100"></progress><br><br>
+       <caption>Responsive:</caption><br>
+       <meter value="4.5" max="5.0"></meter>
+    </section>
+</main>
+<section id="aside">
+     <aside>
+           <h3>Quick Links</h3>
+            <a href="#home">Home</a>&nbsp |
+            <a href="#portfolio">Portfolio</a>&nbsp |
+            <a href="#resume">Resume</a>&nbsp |
+            <a href="#media">Media</a>&nbsp |
+            <a href="#contactme">Contact Me</a>
+    </aside>
+ </section><br><br>
+ <section id="contactme">
+     <form action="#" method="post">
+        <h1>Contact Me</h1>
+        <label for="name">Name: *</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="email">Email: *</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </fieldset><br><br>
+
+
+       <fieldset>
+           <legend>Interested In:</legend>
+               <input type="checkbox" name="checkbox" id="Cricket">
+               <label for="">Cricket</label><br>
+               <input type="checkbox" name="checkbox" id="football">
+               <label for="football">Football</label><br>
+               <input type="checkbox" name="checkbox" id="bedmentan">
+               <label for="bedmentan">Bedmentan</label><br>
+               <input type="checkbox" name="checkbox" id="wolliball">
+               <label for="wolliball">Wolliball</label><br>
+       </fieldset><br><br>
+        
+       <fieldset>
+           <legend> Message:</legend>
+           <textarea name="message" id="message" cols="60" rows="8"></textarea>
+       </fieldset><br>
+       <button type="submit" id="submit">Send Now</button>
+       <button type="reset" id="reset"> Try Again</button>
+     </form>
+ </section><br><br>
+<footer>
+ &copy;My Personal Website | Muhammad Hanif:2025
+</footer>
+</body>
+</html>
